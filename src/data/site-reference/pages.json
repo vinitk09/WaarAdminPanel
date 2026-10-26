@@ -1,0 +1,101 @@
+[
+  {
+    "id": "home",
+    "slug": "home",
+    "title": "Home",
+    "pathname": "/",
+    "heroTitle": "Your ambition. A life of service. Prepare for it.",
+    "seoTitle": "WAAR",
+    "seoDescription": "Courses and tutorials for defence such as NDA,SSB and other",
+    "body": "Build your knowledge for written examinations, prepare for the SSB interview and develop your physical readiness through WAARR’s structured preparation pathways.",
+    "status": "Imported"
+  },
+  {
+    "id": "about",
+    "slug": "about",
+    "title": "About WAARR",
+    "pathname": "/about",
+    "heroTitle": "Building the systems behind high performance.",
+    "seoTitle": "About WAARR | Defence Preparation",
+    "seoDescription": "Learn about WAARR’s approach to defence preparation and performance, our vision, mission and values.",
+    "body": "WAARR focuses on preparing defence aspirants through structured learning, SSB preparation and physical readiness.\n\nWe connect academic preparation, practice, communication and physical development to help aspirants approach their defence journey with purpose. Our wider sports and performance work supports our commitment to disciplined development.\n\nA high-performance environment cannot depend on a single intervention. Coaches, scientists, facilities, testing, recovery and data must work together.\n\nTell us about your target entry, current preparation and goals.",
+    "status": "Imported"
+  },
+  {
+    "id": "defence",
+    "slug": "defence",
+    "title": "Defence",
+    "pathname": "/defence",
+    "heroTitle": "Defence performance & preparation.",
+    "seoTitle": "Defence Performance & Preparation | WAARR",
+    "seoDescription": "Explore WAARR NDA, CDS and SSB preparation, wider defence programme guidance, physical performance and institutional solutions.",
+    "body": "WAARR delivers structured performance and preparation solutions for defence aspirants, personnel and institutions.\n\nPreparation designed around the demands of defence selection. Explore the programme overview before discussing your next step.\n\nProgramme availability, supported entry schemes, delivery mode and batch details are confirmed by the team before booking or enrolment.\n\nStructured physical preparation can develop the capacity needed for demanding training environments, with programmes shaped around assessment and individual needs.\n\nInjury prevention focuses on risk reduction. The programme scope and any specialist recovery support are confirmed before participation.\n\nWAARR offers a framework for organisations seeking to develop structured physical performance and training systems around operational requirements.\n\nThe capabilities shown here are available for discussion. Delivery scope, workforce availability and project arrangements are confirmed individually.\n\nThese areas describe the range of preparation and performance support, rather than a required career sequence.\n\nWhether you are an aspirant seeking structured preparation or an organisation looking to develop a performance system, WAARR can build a solution around your requirements.",
+    "status": "Imported"
+  },
+  {
+    "id": "sports",
+    "slug": "sports",
+    "title": "Sports & performance",
+    "pathname": "/sports",
+    "heroTitle": "Sports performance ecosystems.",
+    "seoTitle": "Sports Performance Ecosystems | WAARR",
+    "seoDescription": "Explore WAARR sports infrastructure, athlete assessment, strength and conditioning, managed high-performance centres and sport-specific performance solutions.",
+    "body": "Build better environments. Develop better athletes. Measure performance.\n\nWAARR designs and delivers integrated sports performance solutions combining infrastructure, performance science, specialised workforce and athlete development.\n\nProject scope, facilities and delivery arrangements are agreed around your requirements.\n\nOur performance systems can include strength, power and movement assessment, athlete profiling and ongoing performance monitoring.\n\nWe don’t test simply to generate numbers. We use assessment to guide training decisions.\n\nThe assessment scope and any reports or training recommendations are confirmed before the service begins.\n\nSport-specific physical preparation designed around the athlete, training age, competition demands and performance objectives.\n\nInjury prevention focuses on reducing risk. Return-to-performance support depends on the appropriate qualified practitioners and agreed service scope.\n\nInstitutions can partner with WAARR for the design, staffing, implementation and ongoing management of performance environments.\n\nTeam composition and specialist availability are confirmed for each project.\n\nOur assessment-to-training methodology: understand the findings, shape the programme and review progress through retesting.\n\nPerformance solutions are adapted to the physiological, biomechanical and technical demands of each sport.\n\nExplore coach education and professional development.\n\nTell us about your facility, your athletes or your performance goals. Choose the conversation that fits your needs.",
+    "status": "Imported"
+  },
+  {
+    "id": "solutions",
+    "slug": "solutions",
+    "title": "Our solutions",
+    "pathname": "/solutions",
+    "heroTitle": "Four capabilities. One integrated ecosystem.",
+    "seoTitle": "Our Solutions | WAARR",
+    "seoDescription": "Four capabilities, one integrated ecosystem: WAARR infrastructure, performance, workforce and education solutions for sport and defence.",
+    "body": "Infrastructure, performance science, specialised people and education. Explore the capabilities that connect sport and defence preparation with structured delivery.\n\nShape the environment around its purpose, from a focused training space to a high-performance centre. Project scope and delivery arrangements are agreed around your requirements.\n\nDesign, supply, installation and operational responsibilities are confirmed in the project proposal.\n\nUse assessment to understand the starting point, guide training priorities and review progress. Performance solutions connect testing, coaching and monitoring around the participant’s needs.\n\nInjury prevention focuses on reducing risk. Recovery support and clinical services depend on qualified practitioners and the agreed scope.\n\nConnect specialist expertise with the needs of your programme or performance environment. Discuss staffing, responsibilities and managed delivery around your objectives.\n\nSpecialist availability, delivery arrangements and location are confirmed for each engagement.\n\nEducation connects coaches, performance professionals and aspiring practitioners with structured development. Explore professional education or discuss a workshop for your organisation.\n\nProgramme availability, delivery format and any certification or credential-preparation arrangements are confirmed for the specific course.\n\nTell us what you are trying to build, improve or solve. We’ll help identify the right combination of infrastructure, performance, people and education.",
+    "status": "Imported"
+  },
+  {
+    "id": "workforce",
+    "slug": "workforce",
+    "title": "Performance workforce",
+    "pathname": "/solutions/workforce",
+    "heroTitle": "People who make performance systems work.",
+    "seoTitle": "Performance Workforce | WAARR",
+    "seoDescription": "Explore multidisciplinary performance specialists, potential deployment settings and managed workforce delivery with WAARR.",
+    "body": "Discuss specialist staffing or support for managed performance operations. Roles, availability and responsibilities are agreed for each engagement.\n\nSpecialist availability, qualifications and delivery through employees, associates or partners are confirmed in the proposal.\n\nPotential settings for workforce support include schools, academies, clubs and institutional performance environments. These describe possible engagements, rather than existing contracts in every sector.\n\nLocation, current reach and deployment availability are confirmed individually.\n\nScheduling, supervision, reporting and service continuity are set out in the proposal. A workforce enquiry begins a commercial conversation; it does not register a learner.",
+    "status": "Imported"
+  },
+  {
+    "id": "education",
+    "slug": "education",
+    "title": "Education",
+    "pathname": "/solutions/education",
+    "heroTitle": "Develop the people behind performance.",
+    "seoTitle": "WAARR Academy | Education",
+    "seoDescription": "Explore coach education, professional development, shared defence preparation programmes through WAARR Academy.",
+    "body": "Individuals can discuss course options. Institutions can explore workshops, coach development or tailored education requirements.\n\nThese are areas of education interest. Active courses, delivery modes and current availability are confirmed by the team.\n\nDiscuss preparation for the relevant external credential. WAARR preparation does not imply that WAARR awards the credential or has an affiliation with its awarding body.\n\nAvailability, teaching format, preparation scope and materials require confirmation before booking.\n\nDefence programme overviews remain in the Defence area, so learning information stays consistent across the website.\n\nAsk about the intended audience, objectives, mentor, duration, timetable, learning materials and access period. Any certification must identify the awarding body and whether it certifies attendance, completion or an assessed credential.",
+    "status": "Imported"
+  },
+  {
+    "id": "performance-intelligence",
+    "slug": "performance-intelligence",
+    "title": "Performance intelligence",
+    "pathname": "/solutions/performance-intelligence",
+    "heroTitle": "Turning performance data into better decisions.",
+    "seoTitle": "Performance Intelligence | WAARR",
+    "seoDescription": "Explore WAARR performance assessment and the process of turning testing, analysis and monitoring into better training decisions.",
+    "body": "A service methodology for performance assessment and decision support. The assessment scope and any reviewed findings or training priorities are agreed for each engagement.\n\nPotential assessment areas depend on the actual service, equipment and qualified practitioners available. Agree what will be assessed and how the findings will be reviewed before starting.\n\nAssessment findings support training decisions; they do not imply unsupported diagnostic conclusions.\n\nWAARR is building toward technology-enabled performance intelligence that can connect athletes, coaches, institutions and performance teams through a common data ecosystem.\n\nThis describes future direction, not an available software product, live dashboard or subscription service.\n\nPerformance Intelligence concerns assessment and decision support. The participant portal is intended for enrolled learners’ materials, schedules and learning access.\n\nThis enquiry begins a service conversation. It is not a software demonstration booking.",
+    "status": "Imported"
+  },
+  {
+    "id": "contact",
+    "slug": "contact",
+    "title": "Contact",
+    "pathname": "/contact",
+    "heroTitle": "Plan your defence preparation.",
+    "seoTitle": "Contact WAARR | Start a Conversation",
+    "seoDescription": "Discuss NDA, CDS, AFCAT and SSB preparation, upcoming batches and physical readiness with WAARR.",
+    "body": "Tell us about your target entry, preparation goals or preferred course. Our team will help you understand the next batch, programme scope and enrolment steps.\n\nChoose your interest and share your requirement. Organisation is optional for individuals.\n\nFor defence courses, SSB preparation, upcoming batch enquiries and physical readiness programmes. You can also contact us about sports and institutional requirements.\n\nBrowse the programme overview before choosing your preparation pathway.\n\nUse your participant account for learning resources, course progress and your timetable. For access help, choose Other and describe the issue in this form.",
+    "status": "Imported"
+  }
+]

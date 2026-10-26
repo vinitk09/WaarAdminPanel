@@ -1,0 +1,49 @@
+.audit-table-panel { border:1px solid #e9e2e8; border-radius:11px; background:white; }
+.audit-table-heading { display:flex; align-items:center; justify-content:space-between; gap:18px; padding:23px 24px; }
+.audit-table-heading h2 { display:flex; align-items:center; gap:9px; font-size:15px; font-weight:600; color: #111111; }
+.audit-table-heading h2>span { background:#f7eaf1; color: #111111; padding:3px 7px; border-radius:5px; font-size:10px; font-weight:550; }
+.audit-table-heading p { margin-top:8px; color: #111111; font-size:11px; line-height:1.7; }
+.audit-heading-icon { display:grid; place-items:center; width:36px; height:36px; border:1px solid #eee1e9; border-radius:9px; color: #111111; background:#fcf8fa; }
+.audit-table-panel .audit-filters { display:flex; align-items:flex-end; flex-wrap:wrap; gap:13px; padding:17px 24px 21px; border-top:1px solid #f2eaf0; border-bottom:1px solid #eee4ec; background:#fdfbfd; }
+.audit-table-panel .audit-filters label { flex:1; min-width:125px; font-size:10px; color: #111111; }
+.audit-table-panel .audit-filters label>select,.audit-table-panel .audit-filters label>input { padding:9px 10px; font-size:11px; border:1px solid #e8dce7; border-radius:6px; background:white; color: #111111; }
+.audit-table-panel .audit-filters>.button { min-height:36px; margin:0; font-size:10px; }
+.audit-grid-scroll { max-height:650px; overflow:auto; scrollbar-width:thin; }
+.audit-table-panel .audit-table { width:100%; min-width:920px; border-collapse:collapse; table-layout:auto; }
+.audit-table-panel .audit-table thead { position:sticky; top:0; z-index:1; }
+.audit-table-panel .audit-table th { padding:14px 18px; color: #111111; font-size:8px; letter-spacing:.8px; font-weight:550; border-top:0; border-bottom:1px solid #eadfe8; background:#f9f6f9; white-space:nowrap; }
+.audit-table-panel .audit-table td { padding:17px 18px; border-bottom:1px solid #f0e8ef; font-size:11px; color: #111111; line-height:1.7; vertical-align:middle; }
+.audit-table-panel .audit-table tr:last-child td { border-bottom:0; }
+.audit-table-panel .audit-table tbody tr:nth-child(even) { background:#fefcfe; }
+.audit-table-panel .audit-table tbody tr:hover { background:#fbf5f9; }
+.audit-table-panel .audit-table td:nth-child(2) { min-width:180px; max-width:300px; }
+.audit-table-panel .audit-table td:nth-last-child(2),.audit-table-panel .audit-table th:nth-last-child(2) { text-align:center; }
+.audit-table-panel .audit-table td:last-child { width:64px; }
+.audit-action-label { display:inline-flex; align-items:center; gap:6px; padding:4px 8px; border:1px solid #eadce9; border-radius:5px; background:#f8eff7; color: #111111; font-size:10px; white-space:nowrap; }
+.audit-action-label i { width:4px; height:4px; border-radius:50%; background:currentColor; }
+.audit-action-label.action-created { background:#edf6f0; color: #111111; border-color:#dbeade; }
+.audit-action-label.action-updated { background:#fcf3e9; color: #111111; border-color:#f1e5d4; }
+.audit-action-label.action-deleted { background:#fdf0f3; color: #111111; border-color:#efdee6; }
+.audit-record-name { display:block; color: #111111; font-size:12px; font-weight:550; overflow-wrap:anywhere; }
+.audit-record-summary { display:block; color: #111111; font-size:10px; margin-top:5px; }
+.audit-section-label { display:inline-block; font-size:10px; color: #111111; }
+.audit-table-panel .audit-actor { color: #111111; font-size:11px; overflow-wrap:anywhere; }
+.audit-table-panel .audit-date { color: #111111; font-size:10px; white-space:nowrap; }
+.audit-field-count { display:inline-grid; place-items:center; min-width:24px; height:24px; padding:0 5px; border:1px solid #ecdfeb; background:#faf4fa; border-radius:5px; color: #111111; font-size:10px; }
+.audit-table-panel .pagination { border-top:1px solid #eee3ec; padding:17px 24px; }
+.audit-table-footnote { display:flex; align-items:flex-start; gap:7px; border-top:1px solid #f1e8f0; background:#fdfbfd; padding:13px 24px; color: #111111; font-size:10px; line-height:1.8; }
+.audit-table-footnote>svg { margin-top:2px; }
+.audit-mobile-hint { display:none; }
+.audit-event-dialog .audit-event-facts { padding-top:0; margin-bottom:13px; }
+.audit-event-dialog .audit-changes-title { font-size:14px; color:#946888; font-weight:550; margin:12px 0 16px; }
+.audit-changes-table { width:100%; border:1px solid #eadeea; table-layout:fixed; }
+.audit-changes-table thead th { background:#f9f3f8; padding:12px; color: #111111; font-size:9px; letter-spacing:.6px; border-bottom:1px solid #eadcea; }
+.audit-changes-table thead th:first-child { width:24%; }
+.audit-changes-table tbody th { background:#fdfafd; padding:14px 12px; font-size:11px; font-weight:500; color: #111111; letter-spacing:0; text-transform:capitalize; white-space:normal; overflow-wrap:anywhere; vertical-align:top; border-bottom:1px solid #eee2ed; border-right:1px solid #eee2ed; }
+.audit-changes-table td { padding:14px 12px; vertical-align:top; border-bottom:1px solid #eee2ed; border-right:1px solid #eee2ed; }
+.audit-changes-table td:last-child { background:#fcfefc; border-right:0; }
+.audit-changes-table pre { font-family:var(--font-geist-mono),monospace; font-size:10px; color: #111111; line-height:1.9; white-space:pre-wrap; overflow-wrap:anywhere; margin:0; max-height:200px; overflow:auto; }
+.audit-changes-table .audit-no-value { color: #111111; font-size:10px; }
+.audit-changes-table td>p { color: #111111; line-height:1.9; font-size:11px; }
+@media(min-width:1600px) { .audit-table-panel .audit-table th { font-size:9px; }.audit-table-panel .audit-table td { padding:19px 22px; }.audit-record-name { font-size:13px; }.audit-table-panel .audit-actor { font-size:12px; }.audit-table-panel .audit-date,.audit-section-label { font-size:11px; } }
+@media(max-width:600px) { .audit-table-heading { padding:19px 17px; }.audit-table-heading h2 { font-size:14px; }.audit-table-heading p { font-size:10px; }.audit-table-panel .audit-filters { padding:16px 17px; gap:12px; }.audit-table-panel .audit-filters label { min-width:calc(50% - 12px); }.audit-table-panel .audit-filters>.button { width:100%; }.audit-mobile-hint { display:flex; align-items:center; gap:6px; padding:10px 17px; font-size:9px; color: #111111; background:#fefbfe; border-bottom:1px solid #eee4ed; }.audit-table-panel .pagination { padding:14px; }.audit-table-footnote { padding:12px 15px; font-size:9px; }.audit-event-dialog .audit-event-facts { grid-template-columns:1fr; }.audit-changes-table { min-width:500px; } }

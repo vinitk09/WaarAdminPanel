@@ -1,0 +1,17 @@
+.table-search { display:flex; align-items:center; gap:9px; width:270px; max-width:100%; min-width:0; min-height:36px; padding:0 11px; border:1px solid #e8dfe7; border-radius:7px; color: #111111; background:white; }
+.table-search:focus-within { border-color:#bd8ca4; box-shadow:0 0 0 3px #780c2407; }
+.table-search>input { width:100%; min-width:0; border:0; border-radius:0; margin:0; padding:9px 0; color: #111111; font-size:11px; line-height:1.5; background:transparent; box-shadow:none; outline:none; }
+.table-search>input:focus { box-shadow:none; outline:none; border:0; }
+.table-search>input::placeholder { color: #111111; }
+.table-search>input::-webkit-search-cancel-button { display:none; }
+.table-search>button { display:grid; place-items:center; flex-shrink:0; padding:3px; border:0; border-radius:4px; background:transparent; color: #111111; }
+.table-search>button:hover { color:#780c24; background:#f8edf3; }
+.collection-table-actions { display:flex; align-items:center; justify-content:flex-end; flex-wrap:wrap; gap:11px; min-width:0; padding:13px 0; }
+.table-search-toolbar { display:flex; align-items:center; justify-content:space-between; gap:15px; padding:13px 20px; border-top:1px solid #f0e9ef; border-bottom:1px solid #f0e9ef; background:#fefcfe; }
+.table-search-toolbar>span { color: #111111; font-size:10px; line-height:1.7; text-align:right; }
+.audit-table-searchbar { display:flex; align-items:center; justify-content:space-between; gap:15px; padding:15px 24px; border-bottom:1px solid #eee4ec; }
+.audit-table-searchbar .table-search { width:340px; }.audit-table-searchbar>span { font-size:10px; color: #111111; }
+.audit-event-dialog .table-search-toolbar { border:1px solid #eee1ec; border-bottom:0; border-radius:7px 7px 0 0; padding:12px; }
+.audit-event-dialog .table-search { width:290px; }
+@media(max-width:1000px) { .collection-toolbar { flex-wrap:wrap; }.collection-table-actions { flex:1; }.collection-table-actions .table-search { width:230px; } }
+@media(max-width:600px) { .collection-toolbar { gap:0; }.collection-table-actions { width:100%; flex-basis:100%; justify-content:space-between; padding:12px 0 3px; gap:9px; }.collection-table-actions .table-search { flex:1; min-width:125px; width:auto; }.collection-table-actions .filter-select { max-width:130px; }.table-search-toolbar { padding:12px 15px; gap:10px; }.table-search-toolbar .table-search { flex:1; width:auto; }.table-search-toolbar>span { max-width:75px; font-size:9px; }.audit-table-searchbar { padding:13px 17px; gap:10px; }.audit-table-searchbar .table-search { flex:1; width:auto; }.audit-table-searchbar>span { white-space:nowrap; font-size:9px; }.audit-event-dialog .table-search-toolbar { padding:10px; } }
