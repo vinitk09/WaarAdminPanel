@@ -8,7 +8,7 @@ A local administration app built around the sibling WAARR website in `../../Waar
 npm run dev
 ```
 
-Open **http://localhost:3001**. Sign in with the prefilled development demo account: **admin@waarr.com** / **Admin@123**. There is no account-creation screen. The admin server binds to the local computer. Run the public website separately on port 3000; update its URL under Settings if needed.
+Open **http://localhost:3001**. Sign in with the default account (prefilled in development): **admin@waarr.com** / **Admin@123**. There is no account-creation screen. The admin server binds to the local computer. Run the public website separately on port 3000; update its URL under Settings if needed.
 
 ## Available workflows
 
@@ -38,7 +38,7 @@ The page editor holds copy and metadata drafts rather than a visual reconstructi
 
 ## Environment configuration
 
-Copy `.env.example` to `.env.local` if configuring paths or a pre-provisioned administrator. `WAARR_ADMIN_EMAIL` and `WAARR_ADMIN_PASSWORD` take priority over the local setup account. Set `WAARR_ADMIN_SESSION_SECRET` to a long random value to keep environment-based sessions valid across restarts; without it, sessions end when the server restarts. Account creation is disabled. The dummy account is available only in development; configure administrator environment credentials for a production build.
+Copy `.env.example` to `.env.local` if configuring paths or a pre-provisioned administrator. `WAARR_ADMIN_EMAIL` and `WAARR_ADMIN_PASSWORD` take priority over the local setup account. Set `WAARR_ADMIN_SESSION_SECRET` to a long random value to keep environment-based sessions valid across restarts; without it, sessions end when the server restarts. Account creation is disabled. The temporary default login is also available in production when no administrator environment password or saved administrator account is configured: `admin@waarr.com` / `Admin@123`. Replace these shared credentials before wider use.
 
 For deployment, configure the administrator environment values, persistent private storage and HTTPS. The current JSON store and login limiter are intended for a single local instance; use a transactional shared database, shared session controls and production rate limits before running multiple instances or allowing external staff access. The public website's enquiry and payment integrations have their own existing production limitations.
 

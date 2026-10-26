@@ -13,7 +13,13 @@ export async function credentials() {
   if (process.env.WAARR_ADMIN_PASSWORD) return { email: process.env.WAARR_ADMIN_EMAIL || "admin@waarr.local", password: process.env.WAARR_ADMIN_PASSWORD, secret: process.env.WAARR_ADMIN_SESSION_SECRET || processSecret };
   if (process.env.NODE_ENV === "development") return { email: "admin@waarr.com", password: "Admin@123", secret: processSecret, demo: true };
   try { return JSON.parse(await readFile(authFile, "utf8")); }
-  catch (error) { if (error.code === "ENOENT") return null; throw error; }
+  catch (error) {
+    if (error.code === "ENOENT") {
+      // Temporary default login, including deployed production instances.
+      return { email: "admin@waarr.com", password: "Admin@123", secret: process.env.WAARR_ADMIN_SESSION_SECRET || processSecret };
+    }
+    throw error;
+  }
 }
 
 export function verifyPassword(account, password) {
